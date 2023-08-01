@@ -1,8 +1,7 @@
-# expense_tracker
+# Expense Tracker
+An expense tracker app built with Flutter that allows users to track their income and expenses, displays the total amount left, plots a chart of all expenses, and shows recent transactions using Hive as the local database.
 
-A new Flutter project.
-
-## Getting Started
+##  
 
 This project is a starting point for a Flutter application.
 
