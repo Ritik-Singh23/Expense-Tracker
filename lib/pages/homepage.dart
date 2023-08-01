@@ -25,14 +25,14 @@ class _HomePageState extends State<HomePage> {
   List<FlSpot> getPlotPoints(Map entireData) {
     dataSet = [];
     entireData.forEach((key, value) {
-      if (value['type'] == "Expense" &&
-          (value['date'] as DateTime).month == today.month) {
+      if (value['type'] == "Expense") {
         dataSet.add(
           FlSpot(
             (value['date'] as DateTime).day.toDouble(),
             (value['amount'] as int).toDouble(),
           ),
         );
+        ;
       }
     });
     return dataSet;
